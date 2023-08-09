@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-interface-qukae" />
+        <module name="ejb-implementation" />
+        <module name="ejb-data-querying-interfaces" />
+        <module name="webapp-test" />
+        <module name="producer-ejbs" />
+        <module name="ejb-data-querying" />
+        <module name="producer-interfaces" />
+        <module name="RegionalServer" />
+        <module name="ejb-implemntion" />
+        <module name="ejb-interfaces-quakes" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cleint-webapp" target="1.7" />
+      <module name="client-console" target="1.7" />
+      <module name="client-webapp" target="1.7" />
+      <module name="producer-ejb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="webapp-test" options="" />
+    </option>
+  </component>
+</project>

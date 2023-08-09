@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="producer-ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/producer_ejb</output-path>
+    <root id="root">
+      <element id="module-output" name="producer-ejbs" />
+      <element id="module-output" name="producer-interfaces" />
+    </root>
+  </artifact>
+</component>

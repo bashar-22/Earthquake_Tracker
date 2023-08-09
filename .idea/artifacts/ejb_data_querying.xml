@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="ejb_data_querying">
+    <output-path>$PROJECT_DIR$/out/artifacts/ejb_data_querying</output-path>
+    <root id="root">
+      <element id="module-output" name="ejb-data-querying" />
+      <element id="module-output" name="ejb-data-querying-interfaces" />
+      <element id="module-output" name="ejb-interfaces-quakes" />
+    </root>
+  </artifact>
+</component>
